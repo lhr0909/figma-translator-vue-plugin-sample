@@ -1,21 +1,27 @@
 {
-  "name": "figma-translator-vue-plugin-sample",
+  "name": "figma-translator-react-plugin-sample",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "start": "vite -c vite.config.ui.js",
     "build": "vite build -c vite.config.ui.js && vite build -c vite.config.code.js",
     "serve": "vite preview -c vite.config.ui.js"
   },
   "dependencies": {
-    "vue": "^3.2.13",
-    "vuex": "^4.1.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@figma/plugin-typings": "^1.61.0",
-    "@vitejs/plugin-vue": "3.0.1",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
     "typescript": "^4.9.5",
-    "vite": "3.2.7",
+    "vite": "^5.0.0",
     "vite-plugin-singlefile": "^0.13.5"
   }
 }

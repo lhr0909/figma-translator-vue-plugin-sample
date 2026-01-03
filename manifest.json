@@ -1,12 +1,10 @@
 {
-  "name": "{{Your plugin name}}",
-  "id": "{{Your plugin ID}}",
+  "name": "quick-ai-translate",
+  "id": "1589200731851279354",
   "api": "1.0.0",
-  "main": "dist/code.js",
+  "main": "dist/code.cjs",
   "capabilities": [],
   "enableProposedApi": false,
-  "editorType": [
-    "figma"
-  ],
+  "editorType": ["figma"],
   "ui": "dist/ui.html"
 }

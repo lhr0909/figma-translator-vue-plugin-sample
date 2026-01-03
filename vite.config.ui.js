@@ -1,4 +1,4 @@
-import vue from '@vitejs/plugin-vue';
+import react from '@vitejs/plugin-react';
 import dns from 'dns';
 import {resolve} from 'path'
 import {defineConfig} from 'vite';
@@ -16,7 +16,7 @@ export default defineConfig({
             }
         }
     },
-    plugins: [vue(), viteSingleFile()],
+    plugins: [react(), viteSingleFile()],
     server: {
         port: 3000,
         open: '/ui.html',
